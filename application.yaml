@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/tutac/JenkinsDemo.git
     targetRevision: HEAD
-    path: master
+    path: jenkins
   destination:
     server: https://kubernetes.default.svc
     namespace: jenkins
